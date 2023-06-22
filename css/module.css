@@ -1,0 +1,32 @@
+.view h3+p span:first-child{
+  font-weight: 800;
+  font-size: 50px;
+}
+.view h3+p span:last-child{
+font-weight: 800;
+font-size: 1rem;
+}
+.view > span {
+  font-size: x-large;
+font-weight: 700;
+}
+
+.score>h2{
+font-size: x-large;
+}
+
+.card>button{
+font-size: unset;
+font-weight: bold;
+}
+.view h3+p::before{
+  background: hsla(246, 86%, 57%, 1);
+  background: linear-gradient(0deg, hsla(246, 86%, 57%, 1) 40%, hsla(255, 71%, 46%, 1) 100%);
+  content: '';
+}
+.view p:last-child{
+  text-align:center;
+}
+.view h3+p span{
+  z-index:1;
+}

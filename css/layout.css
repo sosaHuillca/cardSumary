@@ -1,0 +1,61 @@
+/*
+ * card
+ *|-view
+ *|-score
+ *
+ */
+.center-grid{
+  display: grid;
+  justify-items:center;
+}
+.view{
+border-radius: 36px;
+width:90%;
+min-height: 330px;
+}
+.view h3+p{
+  position:relative;
+}
+.view h3+p::before{
+  position: absolute;
+  top: -17px;
+
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+}
+.view p:last-child{
+  width: 70%;
+}
+.view > span {
+margin-top:20px;
+}
+
+.score{
+  display: grid;
+  gap:15px;
+}
+.score{
+  margin: 20px;
+  width:80%;
+}
+.info-sumary{
+padding: 12px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+border-radius: 10px;
+}
+.info-sumary div{
+  display: flex;
+}
+.info-sumary img{
+  margin-right: 10px;
+}
+.card>button{
+border: none;
+border-radius: 20px;
+padding: 10px;
+width: 80%;
+}

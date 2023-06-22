@@ -1,0 +1,70 @@
+.view{
+  background: hsla(242, 82%, 55%, 1);
+
+background: linear-gradient(0deg, hsla(242, 82%, 55%, 1) 0%, hsla(251, 100%, 63%, 1) 50%);
+
+background: -moz-linear-gradient(0deg, hsla(242, 82%, 55%, 1) 0%, hsla(251, 100%, 63%, 1) 50%);
+
+background: -webkit-linear-gradient(0deg, hsla(242, 82%, 55%, 1) 0%, hsla(251, 100%, 63%, 1) 50%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#312CEA", endColorstr="#6743FF", GradientType=1 );
+}
+
+.view > h3{
+  color: #d4c5ff
+}
+
+.view h3+p span:first-child{
+  color: white;
+}
+.view h3+p span:last-child{
+   color: #8a7eff;
+ }
+.view > span {
+color:white;
+}
+.view>p:last-child{
+  color: #ada7ff;
+}
+.score>h2{
+  color: #28303d;
+}
+.info-sumary div:last-child{
+  color:#373741
+}
+.info-sumary div:last-child span{
+  color:#9b949b
+}
+
+.reaction{
+  background: #fff6f5;
+}
+.reaction img+span{
+  color: #db6a6c;
+}
+.memory{
+  background:#fffbf2;
+}
+.memory img+span{
+  color: #ddaf4f;
+}
+.verbal{
+  background: #f2fbfa;
+}
+.verbal img+span{
+  color: #ddaf4f;
+}
+.visual{
+  background: #f3f3fd;
+}
+.visual img+span{
+  color: #2b2d78;
+}
+
+.card>button{
+  background: hsla(246, 86%, 57%, 1);
+  background: linear-gradient(0deg, hsla(246, 86%, 57%, 1) 40%, hsla(255, 71%, 46%, 1) 100%);
+}
+.card>button>span{
+  color: white;
+}

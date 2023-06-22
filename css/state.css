@@ -1,0 +1,29 @@
+@media screen and (min-width:500px){
+  /*layaout*/
+  .card{
+    grid-template-columns:1fr 2fr;
+    grid-template-areas:"result sumary" "result button";
+  }
+  .view{
+    grid-area:result;
+    min-width:230px;
+  }
+  .score{
+    grid-area:sumary;
+  }
+  .card>button{
+    grid-area:button;
+  }
+}
+@media screen and (min-width:800px){
+  .card{
+    max-width:700px;
+    margin-left:auto;margin-right:auto;
+  }
+}
+.card>button{
+transition:background .3s linear; 
+}
+.card>button:hover{
+background: #303b59;
+}
